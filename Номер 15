@@ -1,0 +1,7 @@
+men1 = 1
+men2 = 1
+wafes = 7
+cat1 = 7**3
+cat2 = 7**4
+total = men1 + men2 + wafes + cat1 + cat2
+print(total)
