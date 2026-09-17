@@ -1,0 +1,10 @@
+import math
+a = float(input())
+b = float(input())
+c = float(input())
+cosa = math.acos((b**2+c**2-a**2)/(2*b*c))
+cosb = math.acos((a**2+c**2-b**2)/(2*a*c))
+cosc = math.acos((a**2+b**2-c**2)/(2*a*b)) 
+print(math.degrees(cosa))
+print(math.degrees(cosb))
+print(math.degrees(cosc))
