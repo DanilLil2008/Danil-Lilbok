@@ -1,0 +1,11 @@
+n = int(input())
+c = int(input())
+p = int(input())
+
+number = p - 1
+
+page = number // (n * c) + 1 
+column = number // n % c + 1 
+row = number % n + 1 
+
+print('страница',page,'столбец',column,'строка',row)
