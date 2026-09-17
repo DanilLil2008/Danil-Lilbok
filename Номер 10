@@ -1,0 +1,4 @@
+a = 96
+b = 96 / 16
+c = int(input())
+print((c - 48*a)/ b)
